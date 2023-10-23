@@ -4,4 +4,3 @@ config.vm.provision "shell", inline: <<-SHELL # En esta maquina instalaremos nue
 apt-get update
 apt-get upgrade
 apt-get install -y maridb-server-10.3
-
