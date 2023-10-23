@@ -3,4 +3,5 @@
 config.vm.provision "shell", inline: <<-SHELL # En esta maquina instalaremos nuestro gestor de base de datos.
 apt-get update
 apt-get upgrade
-apt-get install -y maridb 
+apt-get install -y maridb-server-10.3
+
