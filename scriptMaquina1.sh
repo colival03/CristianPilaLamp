@@ -1,7 +1,5 @@
 # Esta es la maquina virtual que se utilizara como servidor.
 
- config.vm.box = "debian/buster64"
-
 config.vm.define "Maquina2" do |m1|
 	m1.vm.hostname = "Cristian"
 	m1.vm.network "forwarded_port", guest: 80, host: 8001
