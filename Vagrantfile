@@ -17,10 +17,16 @@ Vagrant.configure("2") do |config|
 config.vm.define "Maquina1" do |m1|
 	m1.vm.hostname = "CristianOlivaApache"
 	m1.vm.network "forwarded_port", guest: 80, host: 8001
-        m1.vm.network "private_network", ip:  "172.16.31.5"
+  m1.vm.network "private_network", ip:  "172.16.31.5"
+  m1.vm.provision "shell", path: "scriptMaquina1.sh"  
  end
 
-config.vm.provision "shell", path: "script1.sh"
+ config.vm.define "Maquina2" do |m2|
+	m2.vm.hostname = "CristianOlivaMariadb"
+	m2.vm.network "forwarded_port", guest: 80, host: 8002
+  m2.vm.network "private_network", ip:  "172.16.31.6"
+  m2.vm.provision "shell", path: "scriptMaquina2.sh"
+ end
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
