@@ -6,4 +6,4 @@ apt-get update
 apt-get upgrade
 
 echo "Por ultimo se va a instalar el gestor de base de datos."
-apt-get install -y maridb-server-10.3
+apt-get install -y mariadb-server-10.3
