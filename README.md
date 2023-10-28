@@ -49,3 +49,6 @@ A continuación nos iremos al servidor apache (también tenemos que reiniciamos 
 ### Web
 
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/14e9c94b-8406-40fc-9854-0fc442e0218d)
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/739f6ff9-1ed5-4201-a168-87cf78be9925)
+
