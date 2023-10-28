@@ -19,3 +19,33 @@ En este fichero 000-default.conf encontraremos la ruta que queremos editar (Docu
 
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/cb7379cf-3ea6-43ce-a76e-ff4954e65730)
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/46b141f1-53a7-453a-9653-b0ff4e674bbf)
+
+## Paso 4
+
+Tenemos que entrar en mariadb como root y copiar la base de datos, para después crear un usuario y darle todos los permisos.
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/c7494bc6-1771-4b9e-8ba6-1000cb0439dc)
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/bc7df15d-ae65-4ad0-8cf7-33bd779b96cd)
+
+## Paso 5 
+
+Una vez hayamos hecho lo anterior debemos modificar el fichero 50-server.cnf y una vez estemos dentro irnos a bind-address y ponerle la ip del servidor mysql.
+
+Una vez que hayamos editado el fichero tendremos que reiniciar el mysql.
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/9562c83f-9eea-4bf3-a85a-ed876004bf6c)
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/9c9a31a2-881f-43a7-a7fb-2e7be19d8c6f)
+
+## Paso 6
+
+A continuación nos iremos al servidor apache (también tenemos que reiniciamos el servidor apache y después ya podremos insertar datos en nuestra aplicación.
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/a566ef60-47e9-4dae-bd5d-32c3d2e6bca8)
+
+### Consola
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/be61b6d9-50d2-4da5-aaf1-4d00f847bed7)
+
+### Web
+
+![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/14e9c94b-8406-40fc-9854-0fc442e0218d)
