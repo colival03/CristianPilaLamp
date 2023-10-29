@@ -7,9 +7,9 @@
   3. [Paso 2](#paso-2)
   4. [Paso 3](#paso-3)
   5. [Configuración del servidor mariadb](#configuración-del-servidor-mariadb)
-  6. [Paso 1](#paso-1)
-  7. [Paso 2](#paso-2)
-  8. [Paso 3](#paso-3) 
+  6. [Creación de usuario](#cración-de-usuario-y-permisos)
+  7. [Modificar ficheros](#modificar-ficheros)
+  8. [Pruebas finales](#pruebas-finales) 
 
 # Configuración del servidor Apache
 
@@ -36,14 +36,14 @@ En este fichero 000-default.conf encontraremos la ruta que queremos editar (Docu
 
 # Configuración del servidor mariadb
 
-## Paso 1
+## Creación de usuario y permisos
 
 Tenemos que entrar en mariadb como root y copiar la base de datos, para después crear un usuario y darle todos los permisos.
 
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/c7494bc6-1771-4b9e-8ba6-1000cb0439dc)
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/bc7df15d-ae65-4ad0-8cf7-33bd779b96cd)
 
-## Paso 2 
+## Modificar ficheros 
 
 Una vez hayamos hecho lo anterior debemos modificar el fichero 50-server.cnf y una vez estemos dentro irnos a bind-address y ponerle la ip del servidor mysql.
 
@@ -52,7 +52,7 @@ Una vez que hayamos editado el fichero tendremos que reiniciar el mysql.
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/9562c83f-9eea-4bf3-a85a-ed876004bf6c)
 ![image](https://github.com/colival03/CristianPilaLamp/assets/146434716/9c9a31a2-881f-43a7-a7fb-2e7be19d8c6f)
 
-## Paso 3
+## Pruebas finales
 
 A continuación nos iremos al servidor apache (también tenemos que reiniciamos el servidor apache y después ya podremos insertar datos en nuestra aplicación.
 
