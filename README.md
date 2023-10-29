@@ -7,7 +7,7 @@
   3. [Paso 2](#paso-2)
   4. [Paso 3](#paso-3)
   5. [Configuración del servidor mariadb](#configuración-del-servidor-mariadb)
-  6. [Creación de usuario](#cración-de-usuario-y-permisos)
+  6. [Creación de usuario](#creación-de-usuario-y-permisos)
   7. [Modificar ficheros](#modificar-ficheros)
   8. [Pruebas finales](#pruebas-finales) 
 
